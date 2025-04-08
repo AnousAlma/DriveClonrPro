@@ -5,7 +5,7 @@ from tkinter import ttk
 from ttkwidgets import CheckboxTreeview
 from core.auth import GoogleAuth
 from core.model.clonr_config import ClonrConfig
-from core.tree_builder import build_drive_tree
+from core.tree_buildr import build_drive_tree
 from core.model.tree_node import DriveNode
 from core.utils import prune_checked_nodes
 
